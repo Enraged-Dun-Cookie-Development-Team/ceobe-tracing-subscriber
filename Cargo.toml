@@ -1,0 +1,8 @@
+[package]
+name = "ceobe-tracing-subscriber"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tracing = { version = "0.1.41", features = ["async-await", "log"] }
+tracing-subscriber = { version = "0.3.19", features = ["chrono", "parking_lot"] }
